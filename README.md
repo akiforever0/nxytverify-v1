@@ -1,4 +1,3 @@
-````md
 <div align="center">
 
 # 🔍 NxYtVerify v1
@@ -164,11 +163,11 @@ deleteScreenshotAfterVerification
 
 These settings control:
 
-* Maximum screenshot size
-* Verification cooldown
-* Allowed image formats
-* Gemini model
-* Automatic screenshot/message deletion
+- Maximum screenshot size
+- Verification cooldown
+- Allowed image formats
+- Gemini model
+- Automatic screenshot/message deletion
 
 ---
 
@@ -198,12 +197,12 @@ The screenshot is sent to Google Gemini.
 
 Gemini checks:
 
-* Whether the screenshot is from YouTube
-* Whether the correct channel is visible
-* Whether the channel matches the configured name
-* Whether the channel matches the configured handle
-* Whether the subscription state is visible
-* Whether the state shows `Subscribed`
+- Whether the screenshot is from YouTube
+- Whether the correct channel is visible
+- Whether the channel matches the configured name
+- Whether the channel matches the configured handle
+- Whether the subscription state is visible
+- Whether the state shows `Subscribed`
 
 ### 6. Verification Result
 
@@ -249,13 +248,13 @@ is rejected.
 
 The bot can also reject screenshots that are:
 
-* Unrelated to YouTube
-* Showing the wrong channel
-* Too blurry to verify
-* Missing the channel identity
-* Missing a clear subscription state
-* Showing an unclear subscription status
-* Invalid or manipulated-looking
+- Unrelated to YouTube
+- Showing the wrong channel
+- Too blurry to verify
+- Missing the channel identity
+- Missing a clear subscription state
+- Showing an unclear subscription status
+- Invalid or manipulated-looking
 
 Simply showing a YouTube video or channel is **not enough**.
 
@@ -269,11 +268,11 @@ If `LOG_CHANNEL_ID` is configured, verification results are sent to that channel
 
 Logs can contain:
 
-* User
-* Verification result
-* Gemini confidence
-* Verification reason
-* DM result
+- User
+- Verification result
+- Gemini confidence
+- Verification reason
+- DM result
 
 ---
 
@@ -393,11 +392,11 @@ NxYtVerify-v1/
 
 ## 🛠️ Technologies
 
-* **Node.js**
-* **Discord.js**
-* **Google Gemini**
-* **dotenv**
-* **JSON storage**
+- **Node.js**
+- **Discord.js**
+- **Google Gemini**
+- **dotenv**
+- **JSON storage**
 
 ---
 
@@ -484,22 +483,17 @@ NxYtVerify is an independent project.
 
 It is not affiliated with:
 
-* Discord
-* YouTube
-* Google
-* Google Gemini
+- Discord
+- YouTube
+- Google
+- Google Gemini
 
 You are responsible for your own bot, API keys, Discord server configuration, and use of this software.
 
 ---
-
-<div align="center">
 
 **NxYtVerify v1**
 
 **© 2026 AkiForever — All Rights Reserved**
 
 Made by **AkiForever**
-
-</div>
-```
